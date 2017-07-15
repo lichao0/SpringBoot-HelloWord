@@ -1,0 +1,16 @@
+app:
+  name: SpringBoot
+
+helloStr: Hello ${app.name}
+
+user:
+  name: kid
+  age: 5
+  sex: male
+  
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
